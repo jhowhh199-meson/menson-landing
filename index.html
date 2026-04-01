@@ -1,0 +1,2055 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menson Gourmet — Seu delivery próprio sem taxa por pedido</title>
+
+    <!-- SEO & Open Graph -->
+    <meta name="description"
+        content="Aumente seu lucro com o Menson Gourmet. Cardápio digital e delivery próprio com zero taxas por pedido.">
+    <meta property="og:title" content="Menson Gourmet — Seu delivery próprio sem taxa por pedido">
+    <meta property="og:description"
+        content="Aumente seu lucro com o Menson Gourmet. Cardápio digital e delivery próprio com zero taxas por pedido.">
+    <meta property="og:type" content="website">
+    <!-- Meta tags placeholder for image soon -->
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- 
+        EFEITO DECORATIVO GLOBAL (HERO AREA)
+        Radial gradient muito sutil no canto superior direito
+    -->
+    <div class="global-gradient-overlay"></div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="container navbar-container">
+            <!-- Logo -->
+            <a href="#" class="logo">
+                <div class="logo-icon">M</div>
+                <div class="logo-text">
+                    <span class="logo-brand">MENSON</span>
+                    <span class="logo-suffix">gourmet</span>
+                </div>
+            </a>
+
+            <!-- Navigation Links (Desktop) -->
+            <ul class="nav-links">
+                <li><a href="#economia">Economia</a></li>
+                <li><a href="#recursos">Recursos</a></li>
+                <li><a href="#planos">Planos</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+
+            <!-- Action Area (Desktop) -->
+            <div class="nav-actions">
+                <a href="#demo" target="_blank" class="btn-secondary btn-sm nav-btn-demo">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                    </svg>
+                    <span>Visitar Loja Demo</span>
+                </a>
+                <a href="#comecar" class="btn-primary btn-md nav-btn-cta">
+                    COMEÇAR AGORA
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </a>
+            </div>
+
+            <!-- Mobile Hamburger -->
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Abrir menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Sidebar/Overlay -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-header">
+            <a href="#" class="logo">
+                <div class="logo-icon">M</div>
+                <div class="logo-text">
+                    <span class="logo-brand">MENSON</span>
+                </div>
+            </a>
+            <button class="mobile-menu-close" id="mobile-menu-close" aria-label="Fechar menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+        <div class="mobile-menu-content">
+            <ul class="mobile-nav-links">
+                <li><a href="#economia">Economia</a></li>
+                <li><a href="#recursos">Recursos</a></li>
+                <li><a href="#planos">Planos</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <div class="mobile-nav-actions">
+                <a href="#demo" target="_blank" class="btn-secondary">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                    </svg>
+                    Visitar Loja Demo
+                </a>
+                <a href="#comecar" class="btn-primary">
+                    COMEÇAR AGORA
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="container hero-container">
+            <!-- Coluna Esquerda -->
+            <div class="hero-content">
+                <div class="badge">🔥 Chega de pagar 27% por pedido ao iFood</div>
+                <h1>
+                    Seu delivery <span class="highlight">próprio.
+                        <svg viewBox="0 0 200 12" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 10C40 4 80 2 198 8" stroke="currentColor" stroke-width="4" fill="none"
+                                stroke-linecap="round" />
+                        </svg>
+                    </span><br>
+                    Sem iFood. Sem taxa<br>
+                    por pedido.
+                </h1>
+                <p class="hero-subtitle">
+                    Mensalidade fixa. Receba via Pix e cartão de crédito direto na sua conta. Seus clientes pedem pelo
+                    navegador, sem baixar nenhum app.
+                </p>
+
+                <div class="hero-ctas">
+                    <a href="#planos" class="btn-primary">
+                        🚀 QUERO ECONOMIZAR
+                    </a>
+                    <a href="#demo" target="_blank" class="btn-secondary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                        </svg>
+                        Visitar loja demo
+                    </a>
+                </div>
+
+                <div class="hero-bullets">
+                    <div class="bullet-item">
+                        <div class="bullet-icon">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                        </div>
+                        Importa seu cardápio do iFood em 1 clique
+                    </div>
+                    <div class="bullet-item">
+                        <div class="bullet-icon">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                        </div>
+                        Configura em minutos
+                    </div>
+                    <div class="bullet-item">
+                        <div class="bullet-icon">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                        </div>
+                        Sem taxa por pedido — nunca
+                    </div>
+                </div>
+            </div>
+
+            <!-- Coluna Direita -->
+            <div class="hero-visual">
+                <div class="mockups-glow"></div>
+                <div class="mockups-container">
+                    <!-- Badge Flutuante -->
+                    <a href="#demo" class="floating-badge"><span>👆</span> Isso é real. Teste agora</a>
+
+                    <!-- Mockup Painel (Atrás) -->
+                    <div class="mockup-panel">
+                        <div class="panel-header">
+                            <div class="panel-dots">
+                                <div class="panel-dot"></div>
+                                <div class="panel-dot"></div>
+                                <div class="panel-dot"></div>
+                            </div>
+                            <div class="panel-title">Painel Menson</div>
+                        </div>
+                        <div class="panel-kanban">
+                            <div class="kanban-col">
+                                <div class="kanban-col-title">Aceito</div>
+                                <div class="kanban-card">
+                                    <div class="kanban-card-id">#041 - Mesa 3</div>
+                                    <div class="kanban-card-type">Retirada</div>
+                                </div>
+                                <div class="kanban-card">
+                                    <div class="kanban-card-id">#038 - Delivery</div>
+                                    <div class="kanban-card-type">iFood Import</div>
+                                </div>
+                            </div>
+                            <div class="kanban-col">
+                                <div class="kanban-col-title">Preparando</div>
+                                <div class="kanban-card">
+                                    <div class="kanban-card-id">#037 - Retirada</div>
+                                    <div class="kanban-card-type">Pendente</div>
+                                </div>
+                            </div>
+                            <div class="kanban-col">
+                                <div class="kanban-col-title">Entrega</div>
+                                <div class="kanban-card">
+                                    <div class="kanban-card-id">#035 - Delivery</div>
+                                    <div class="kanban-card-type">Saiu para entrega</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-notification">🔔 Novo pedido!</div>
+                    </div>
+
+                    <!-- Mockup Celular (Frente) -->
+                    <div class="mockup-phone">
+                        <div class="mockup-phone-content">
+                            <div class="phone-header">
+                                <span style="font-size: 16px;">🍔</span>
+                                <div class="phone-header-title">Burger House</div>
+                            </div>
+                            <!-- Mock barra de busca -->
+                            <div class="phone-search"></div>
+
+                            <div class="phone-categories">
+                                <div class="phone-cat">🔥 Promo</div>
+                                <div class="phone-cat" style="color: #94A3B8; border: none;">🍔 Burgers</div>
+                            </div>
+                            <div class="phone-products">
+                                <div class="phone-product-card">
+                                    <div class="product-img"></div>
+                                    <div class="product-info">
+                                        <div class="product-badge-promo">PROMO</div>
+                                        <div class="product-name">Smash Burger</div>
+                                        <div class="product-price">R$ 24,90</div>
+                                    </div>
+                                </div>
+                                <div class="phone-product-card">
+                                    <div class="product-img"></div>
+                                    <div class="product-info">
+                                        <div class="product-name">Bacon Premium</div>
+                                        <div class="product-price">R$ 32,90</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="phone-cart-btn">Ver carrinho (2) — R$ 57,80</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DEMO BAR -->
+    <section id="demo-bar" class="demo-bar">
+        <div class="container demo-bar-container">
+            <span class="demo-icon-eye reveal">👀</span>
+            <h2 class="reveal">Não acredite em mim. Visite uma loja funcionando.</h2>
+            <p class="demo-description reveal">
+                Montamos uma hamburgueria completa para você testar. Navegue pelo cardápio, adicione produtos, simule um
+                pedido. Tudo funcionando de verdade.
+            </p>
+
+            <div class="demo-cards">
+                <div class="demo-card reveal">
+                    <div class="demo-card-icon">📱</div>
+                    <h3 class="demo-card-title">Pedir como Cliente</h3>
+                    <p class="demo-card-desc">Navegue pelo cardápio, adicione ao carrinho e simule um pedido completo.
+                    </p>
+                    <div class="demo-card-actions">
+                        <button class="btn-demo-solid open-demo-btn" data-demo="menu">
+                            Visualizar Cardápio
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M15 3h6v6"></path>
+                                <path d="M10 14L21 3"></path>
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            </svg>
+                        </button>
+                        <a href="#demo-menu" target="_blank" class="btn-demo-link">
+                            Abrir em nova aba
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card Lojista -->
+                <div class="demo-card reveal">
+                    <div class="demo-card-icon">💻</div>
+                    <h3 class="demo-card-title">Painel do Lojista</h3>
+                    <p class="demo-card-desc">Veja como os pedidos chegam no kanban e como você gerencia tudo em tempo
+                        real.</p>
+                    <div class="demo-card-actions">
+                        <button class="btn-demo-solid open-demo-btn" data-demo="admin">
+                            Visualizar Painel
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M15 3h6v6"></path>
+                                <path d="M10 14L21 3"></path>
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            </svg>
+                        </button>
+                        <a href="#demo-admin" target="_blank" class="btn-demo-link">
+                            Abrir em nova aba
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="demo-footer-note reveal">
+                <span>🔄</span>
+                A loja reseta automaticamente <strong>a cada 30 minutos</strong>. Teste à vontade sem medo!
+            </div>
+        </div>
+    </section>
+
+    <!-- ECONOMIA -->
+    <section id="economia" class="economy-section">
+        <div class="container">
+            <div class="economy-header reveal">
+                <span class="badge" style="margin: 0 auto 16px; display: table;">📊 Calculadora de Economia</span>
+                <h2>Descubra quanto você <span>perde</span> para Apps todo mês</h2>
+                <p class="economy-subtitle">
+                    Arraste o slider e veja os números reais.
+                </p>
+            </div>
+
+            <div class="calc-card reveal">
+                <label class="calc-label">Qual seu faturamento mensal no delivery?</label>
+                <span class="calc-value-display" id="faturamento-display">R$ 15.000</span>
+
+                <div class="slider-container">
+                    <input type="range" min="5000" max="50000" step="1000" value="15000" class="custom-range"
+                        id="faturamento-slider">
+                    <div class="slider-labels">
+                        <span>R$ 5.000</span>
+                        <span>R$ 50.000</span>
+                    </div>
+                </div>
+
+                <!-- Divider between slider and compare cards -->
+                <div class="compare-header">
+                    <div class="compare-header-line"></div>
+                    <span class="compare-header-label">Compare lado a lado</span>
+                    <div class="compare-header-line"></div>
+                </div>
+
+                <div class="compare-grid">
+                    <!-- VS Divider -->
+                    <div class="compare-vs-badge">VS</div>
+
+                    <!-- Card iFood -->
+                    <div class="compare-card-ifood">
+                        <div class="compare-badge-ifood">😰 NO App</div>
+                        <div class="compare-item">
+                            <span class="compare-label">Taxa por pedido</span>
+                            <span class="compare-value-sub">~15.2%</span>
+                        </div>
+                        <div class="compare-item">
+                            <span class="compare-label">Você perde/mês</span>
+                            <span class="compare-value" id="ifood-perde-mensal">-R$ 2.280</span>
+                        </div>
+                        <div class="compare-item">
+                            <span class="compare-label">Por ano</span>
+                            <span class="compare-value-sub js-ifood-anual">-R$ 27.360 😱</span>
+                        </div>
+                    </div>
+
+                    <!-- Card Menson -->
+                    <div class="compare-card-menson">
+                        <div class="compare-badge-menson">😎 NA MENSON</div>
+                        <div class="compare-item">
+                            <span class="compare-label">Mensalidade fixa</span>
+                            <span class="compare-value-sub">Sempre a mesma</span>
+                        </div>
+                        <div class="compare-item">
+                            <span class="compare-label">Você paga/mês</span>
+                            <span class="compare-value">-R$ 369</span>
+                        </div>
+                        <div class="compare-item">
+                            <span class="compare-label">Por ano</span>
+                            <span class="compare-value-sub">-R$ 4.428</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Result Panel -->
+                <div class="savings-box">
+                    <div class="savings-vs-line">
+                        <div class="savings-side savings-side-bad">
+                            <span class="savings-side-label">No App</span>
+                            <span class="savings-side-value" id="ifood-perde-anual">-R$ 27.360 😱</span>
+                        </div>
+                        <div class="savings-divider-arrow">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="9 18 15 12 9 6"></polyline>
+                            </svg>
+                        </div>
+                        <div class="savings-side savings-side-good">
+                            <span class="savings-side-label">Na Menson</span>
+                            <span class="savings-side-value savings-side-value-green">R$ 4.428/ano</span>
+                        </div>
+                    </div>
+                    <div class="savings-main">
+                        <span class="savings-label">Você economiza por ano:</span>
+                        <span class="savings-value pulse-value" id="economia-anual">R$ 22.932 por ano de volta pro seu
+                            bolso</span>
+                    </div>
+                    <div class="savings-footer">
+                        <div class="roi-box">
+                            <span class="roi-icon">⚡</span>
+                            <span id="roi-days">O setup de R$1.990 se paga em 32 dias</span>
+                        </div>
+                        <span class="savings-monthly">= <strong id="economia-mensal">R$ 1.911/mês</strong> de volta pro
+                            seu bolso</span>
+                    </div>
+                </div>
+
+                <a href="#planos" class="btn btn-primary btn-center">
+                    <span>🚀</span> QUERO ESSA ECONOMIA
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMO FUNCIONA -->
+    <section id="como-funciona" class="how-it-works-section">
+        <div class="container">
+            <div class="reveal">
+                <span class="badge" style="margin: 0 auto 16px; display: table;">⚡ Simples assim</span>
+                <h2>Do App de delivery para o seu delivery em <span>3 passos</span></h2>
+                <p class="how-it-works-subtitle">
+                    Sem complicação. Sem conhecimento técnico. A gente cuida de tudo ou você mesmo configura.
+                </p>
+            </div>
+
+            <div class="steps-grid">
+                <!-- Linha conectora desktop -->
+                <div class="steps-connector-line"></div>
+
+                <!-- Passo 1 -->
+                <div class="step-card reveal" style="transition-delay: 0.2s;">
+                    <div class="step-number">1</div>
+                    <div class="step-icon-box">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
+                    </div>
+                    <h3>Importe seu cardápio</h3>
+                    <p>Puxe todos os produtos direto do iFood com 1 clique, ou crie os produtos do zero.</p>
+                </div>
+
+                <div class="step-arrow-mobile">↓</div>
+
+                <!-- Passo 2 -->
+                <div class="step-card reveal" style="transition-delay: 0.35s;">
+                    <div class="step-number">2</div>
+                    <div class="step-icon-box">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                            <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                        </svg>
+                    </div>
+                    <h3>Conecte seus canais</h3>
+                    <p>WhatsApp para notificações automáticas e Mercado Pago para receber do cliente. Tudo
+                        conecta via
+                        QR Code em segundos.</p>
+                </div>
+
+                <div class="step-arrow-mobile">↓</div>
+
+                <!-- Passo 3 -->
+                <div class="step-card reveal" style="transition-delay: 0.5s;">
+                    <div class="step-number">3</div>
+                    <div class="step-icon-box">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.71-2.13.71-2.13l-1.58-1.58s-1.29 0-2.13.71Z">
+                            </path>
+                            <path
+                                d="m12 5.41 9.58 9.59L20 16.58l-8.59-8.59-2.12 2.13-1.41-1.42 5.66-5.65 1.41 1.42-2.55 2.54Z">
+                            </path>
+                            <path
+                                d="m15.54 1.46 3 3a4.24 4.24 0 0 1 0 6l-1 1a4.24 4.24 0 0 1-6 0l-1-1a4.24 4.24 0 0 1 0-6l1-1a4.24 4.24 0 0 1 6 0Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3>Comece a vender</h3>
+                    <p>Compartilhe o link do seu cardápio com seus clientes. Pedidos chegam no seu painel Kanban em
+                        tempo real. É só atender.</p>
+                </div>
+            </div>
+
+            <div class="reveal" style="transition-delay: 0.6s;">
+                <div class="setup-time-pill">
+                    <span class="pill-icon">⏱️</span>
+                    <span class="pill-label">Tempo de configuração: <strong>1 hora</strong></span>
+                </div>
+
+                <a href="#demo-bar" class="btn-ghost-demo">
+                    Veja funcionando na loja demo
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- RECURSOS -->
+    <section id="recursos" class="features-section">
+        <div class="container">
+            <div class="reveal">
+                <span class="badge" style="margin: 0 auto 16px; display: table;">🛠️ Recursos</span>
+                <h2>Tudo que você precisa. <span>Nada que você não precisa.</span></h2>
+                <p class="features-subtitle">
+                    Um sistema completo para gerenciar seu delivery, mesa e retirada. E você pode testar tudo agora na
+                    loja demo.
+                </p>
+            </div>
+
+            <!-- Sistema de Tabs -->
+            <div class="tabs-container reveal" style="transition-delay: 0.2s;">
+                <button class="tab-btn active" data-tab="cardapio">📋 Cardápio Digital</button>
+                <button class="tab-btn" data-tab="kanban">📊 Painel Kanban</button>
+                <button class="tab-btn" data-tab="whatsapp">📱 WhatsApp</button>
+                <button class="tab-btn" data-tab="pagamentos">💳 Pagamentos</button>
+                <button class="tab-btn" data-tab="relatorios">📈 Relatórios</button>
+                <button class="tab-btn" data-tab="ifood">📥 Importação iFood</button>
+                <button class="tab-btn" data-tab="controles">🚨 Controles</button>
+            </div>
+
+            <!-- Conteúdo das Tabs -->
+            <div class="features-content-wrapper reveal" style="transition-delay: 0.3s;">
+
+                <!-- TAB 1: Cardápio -->
+                <div class="tab-panel active" id="tab-cardapio">
+                    <div class="panel-info">
+                        <div class="panel-icon-box">📋</div>
+                        <h3>Cardápio Digital Completo</h3>
+                        <p>Seu cliente acessa pelo navegador, sem baixar nenhum app. Uma experiência de compra fluida e
+                            rápida.</p>
+                        <div class="panel-bullets">
+                            <div class="panel-bullet">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Link próprio com o nome do seu restaurante
+                            </div>
+                            <div class="panel-bullet">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Produtos com foto, descrição e opcionais
+                            </div>
+                            <div class="panel-bullet">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Promoções aparecem no topo automaticamente
+                            </div>
+                            <div class="panel-bullet">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Carrinho com observações por item
+                            </div>
+                        </div>
+                        <a href="#demo" target="_blank" class="btn-ghost-panel">Ver cardápio na demo →</a>
+                    </div>
+                    <div class="panel-visual">
+                        <div class="phone-mockup-tab">
+                            <div class="tab-phone-header">
+                                <div
+                                    style="width: 30px; height: 3px; background: #E2E8F0; margin: 0 auto 8px; border-radius: 99px;">
+                                </div>
+                                <span style="font-size: 10px; font-weight: 700; color: #64748B;">Burger House 🍔</span>
+                            </div>
+                            <div class="tab-phone-promo">🔥 Promoções da Semana</div>
+                            <div class="tab-phone-list">
+                                <div class="tab-product-row">
+                                    <div class="tab-product-img"></div>
+                                    <div class="tab-product-text">
+                                        <div class="tab-product-name"></div>
+                                        <div class="tab-product-price"></div>
+                                    </div>
+                                </div>
+                                <div class="tab-product-row">
+                                    <div class="tab-product-img"></div>
+                                    <div class="tab-product-text">
+                                        <div class="tab-product-name"></div>
+                                        <div class="tab-product-price"></div>
+                                    </div>
+                                </div>
+                                <div class="tab-product-row">
+                                    <div class="tab-product-img"></div>
+                                    <div class="tab-product-text">
+                                        <div class="tab-product-name"></div>
+                                        <div class="tab-product-price"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                style="position: absolute; bottom: 16px; left: 16px; right: 16px; height: 40px; background: #F97316; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white; font-size: 10px; font-weight: 700;">
+                                Ver carrinho (2)</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 2: Kanban -->
+                <div class="tab-panel" id="tab-kanban">
+                    <div class="panel-info">
+                        <div class="panel-icon-box">📊</div>
+                        <h3>Painel Kanban em Tempo Real</h3>
+                        <p>Todos os pedidos organizados visualmente entre colunas, nunca mais perca um pedido.
+                        </p>
+                        <div class="panel-bullets">
+                            <div class="panel-bullet">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Colunas: Aceito → Preparando → pronto
+                            </div>
+                            <div class="panel-bullet">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Filtre por delivery, retirada e mesa
+                            </div>
+                            <div class="panel-bullet">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Notificações de novo pedido
+                            </div>
+                        </div>
+                        <a href="#demo" target="_blank" class="btn-ghost-panel">Ver painel na demo →</a>
+                    </div>
+                    <div class="panel-visual">
+                        <div class="browser-frame">
+                            <div class="browser-header">
+                                <div class="browser-dot"></div>
+                                <div class="browser-dot"></div>
+                                <div class="browser-dot"></div>
+                            </div>
+                            <div class="kanban-visual">
+                                <div class="kanban-tab-col">
+                                    <div class="kanban-tab-col-title" style="color: #F97316;">ACEITO</div>
+                                    <div class="kanban-tab-card">
+                                        <div class="kanban-tab-card-line"></div>
+                                        <div class="kanban-tab-card-line" style="width: 50%;"></div>
+                                    </div>
+                                    <div class="kanban-tab-card">
+                                        <div class="kanban-tab-card-line"></div>
+                                        <div class="kanban-tab-card-line" style="width: 50%;"></div>
+                                    </div>
+                                </div>
+                                <div class="kanban-tab-col">
+                                    <div class="kanban-tab-col-title" style="color: #60A5FA;">PREPARANDO</div>
+                                    <div class="kanban-tab-card">
+                                        <div class="kanban-tab-card-line"></div>
+                                        <div class="kanban-tab-card-line" style="width: 50%;"></div>
+                                    </div>
+                                </div>
+                                <div class="kanban-tab-col">
+                                    <div class="kanban-tab-col-title" style="color: #10B981;">PRONTO</div>
+                                    <div class="kanban-tab-card">
+                                        <div class="kanban-tab-card-line"></div>
+                                        <div class="kanban-tab-card-line" style="width: 50%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 3: WhatsApp -->
+                <div class="tab-panel" id="tab-whatsapp">
+                    <div class="panel-info">
+                        <div class="panel-icon-box">📱</div>
+                        <h3>WhatsApp Automático</h3>
+                        <p>Seu cliente recebe o status do pedido direto no WhatsApp de forma automática assim que você
+                            alterar no kanban.</p>
+                        <div class="panel-bullets">
+                            <div class="panel-bullet">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Conecte via QR Code em segundos
+                            </div>
+                            <div class="panel-bullet">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Notificações de status automáticas
+                            </div>
+                            <div class="panel-bullet">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Mensagens enviada apartir do whatsapp da sua loja
+                            </div>
+                        </div>
+                        <a href="#whatsapp" class="btn-ghost-panel">Ver como funciona →</a>
+                    </div>
+                    <div class="panel-visual">
+                        <div class="wa-visual">
+                            <div class="wa-header">Burger House 🍔</div>
+                            <div class="wa-messages">
+                                <div class="wa-msg wa-msg-in">✅ Pedido #041 recebido! Estamos preparando seu Smash
+                                    Burger. <span
+                                        style="font-size: 8px; color: #94A3B8; float: right; margin-top: 4px;">14:30</span>
+                                </div>
+                                <div class="wa-msg wa-msg-in">👨‍🍳 Seu pedido está sendo preparado! <span
+                                        style="font-size: 8px; color: #94A3B8; float: right; margin-top: 4px;">14:35</span>
+                                </div>
+                                <div class="wa-msg wa-msg-in">🛵 Seu pedido saiu para entrega! <span
+                                        style="font-size: 8px; color: #94A3B8; float: right; margin-top: 4px;">14:50</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 4: Pagamentos -->
+                <div class="tab-panel" id="tab-pagamentos">
+                    <div class="panel-info">
+                        <div class="panel-icon-box">💳</div>
+                        <h3>Pagamentos Flexíveis</h3>
+                        <p>Receba via Pix ou cartão de crédito direto na sua conta do Mercado Pago. Configure exatamente
+                            como quer receber.
+                        </p>
+                        <div class="panel-bullets">
+                            <div class="panel-bullet">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Pix e crédito caem direto na SUA conta
+                            </div>
+                            <div class="panel-bullet">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Permita receber online ou na entrega/retirada
+                            </div>
+                            <div class="panel-bullet">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Zero taxa por pedido para a Menson
+                            </div>
+                        </div>
+                        <a href="#demo" target="_blank" class="btn-ghost-panel">Ver configuração →</a>
+                    </div>
+                    <div class="panel-visual">
+                        <div class="browser-frame">
+                            <div class="browser-header">
+                                <div class="browser-dot"></div>
+                                <div class="browser-dot"></div>
+                                <div class="browser-dot"></div>
+                            </div>
+                            <div class="pay-visual">
+                                <div style="font-size: 11px; font-weight: 700; margin-bottom: 16px;">Meios de Pagamento
+                                </div>
+                                <div class="pay-row">
+                                    <span style="font-size: 10px;">💳 Pagamento Online</span>
+                                    <div class="pay-toggle"></div>
+                                </div>
+                                <div class="pay-row">
+                                    <span style="font-size: 10px;">💵 Pagar na Retirada</span>
+                                    <div class="pay-toggle"></div>
+                                </div>
+                                <div class="pay-row">
+                                    <span style="font-size: 10px;">🛵 Pagar na Entrega</span>
+                                    <div class="pay-toggle off"></div>
+                                </div>
+                                <div
+                                    style="margin-top: 16px; padding: 10px; background: #ECFDF5; border: 1px solid #D1FAE5; border-radius: 8px; color: #059669; font-size: 10px; font-weight: 700; text-align: center;">
+                                    Mercado Pago Conectado ✅</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 5: Relatórios -->
+                <div class="tab-panel" id="tab-relatorios">
+                    <div class="panel-info">
+                        <div class="panel-icon-box">📈</div>
+                        <h3>Relatórios Detalhados</h3>
+                        <p>Saiba exatamente quanto vendeu, por qual canal e em qual período. Dados que ajudam você a
+                            crescer.</p>
+                        <div class="panel-bullets">
+                            <div class="panel-bullet">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Filtre por delivery, mesa e retirada
+                            </div>
+                            <div class="panel-bullet">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Veja faturamento total e por produto
+                            </div>
+                            <div class="panel-bullet">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Acompanhe tendências de venda
+                            </div>
+                        </div>
+                        <a href="#demo" target="_blank" class="btn-ghost-panel">Ver relatórios na demo →</a>
+                    </div>
+                    <div class="panel-visual">
+                        <div class="browser-frame">
+                            <div class="browser-header">
+                                <div class="browser-dot"></div>
+                                <div class="browser-dot"></div>
+                                <div class="browser-dot"></div>
+                            </div>
+                            <div class="report-visual">
+                                <div class="report-stats">
+                                    <div class="report-stat-box"><span class="report-stat-val">R$ 1.847</span><span
+                                            class="report-stat-label">Vendas hoje</span></div>
+                                    <div class="report-stat-box"><span class="report-stat-val">43</span><span
+                                            class="report-stat-label">Pedidos</span></div>
+                                    <div class="report-stat-box"><span class="report-stat-val">R$ 42,90</span><span
+                                            class="report-stat-label">Ticket Médio</span></div>
+                                </div>
+                                <div class="report-chart">
+                                    <div class="chart-bar" style="height: 40%;"></div>
+                                    <div class="chart-bar" style="height: 60%;"></div>
+                                    <div class="chart-bar" style="height: 35%;"></div>
+                                    <div class="chart-bar" style="height: 80%;"></div>
+                                    <div class="chart-bar" style="height: 55%;"></div>
+                                    <div class="chart-bar" style="height: 95%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 6: iFood -->
+                <div class="tab-panel" id="tab-ifood">
+                    <div class="panel-info">
+                        <div class="panel-icon-box">📥</div>
+                        <h3>Importação Direta do iFood</h3>
+                        <p>Não precisa criar tudo do zero. Importe seu cardápio completo do iFood e comece a vender em
+                            minutos.</p>
+                        <div class="panel-bullets">
+                            <div class="panel-bullet">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Importa produtos, fotos e descrições
+                            </div>
+                            <div class="panel-bullet">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Processo automático em 1 clique
+                            </div>
+                            <div class="panel-bullet">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Mantém categorias e opcionais
+                            </div>
+                        </div>
+                        <a href="#comecar" class="btn-ghost-panel">Testar importação →</a>
+                    </div>
+                    <div class="panel-visual">
+                        <div class="browser-frame">
+                            <div class="browser-header">
+                                <div class="browser-dot"></div>
+                                <div class="browser-dot"></div>
+                                <div class="browser-dot"></div>
+                            </div>
+                            <div class="import-visual">
+                                <div class="import-flow">
+                                    <div class="import-logo">iF</div>
+                                    <div style="color: #CBD5E1; font-weight: 700;">→→→</div>
+                                    <div class="import-logo menson">M</div>
+                                </div>
+                                <div style="font-size: 10px; font-weight: 700; color: #10B981;">127 produtos importados
+                                    com sucesso! ✅</div>
+                                <div
+                                    style="width: 100%; height: 6px; background: #F1F5F9; border-radius: 99px; overflow: hidden;">
+                                    <div style="width: 100%; height: 100%; background: #10B981;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 7: Controles -->
+                <div class="tab-panel" id="tab-controles">
+                    <div class="panel-info">
+                        <div class="panel-icon-box">🚨</div>
+                        <h3>Controles Essenciais</h3>
+                        <p>Tenha controle total sobre o funcionamento da sua loja. Horários, emergências e status em
+                            tempo real.</p>
+                        <div class="panel-bullets">
+                            <div class="panel-bullet">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Defina horário de atendimento por dia
+                            </div>
+                            <div class="panel-bullet">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Botão de pânico para fechamento imediato
+                            </div>
+                            <div class="panel-bullet">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Ative/desative produtos individualmente
+                            </div>
+                        </div>
+                        <a href="#demo" target="_blank" class="btn-ghost-panel">Ver controles na demo →</a>
+                    </div>
+                    <div class="panel-visual">
+                        <div class="browser-frame">
+                            <div class="browser-header">
+                                <div class="browser-dot"></div>
+                                <div class="browser-dot"></div>
+                                <div class="browser-dot"></div>
+                            </div>
+                            <div class="control-visual">
+                                <div style="font-size: 10px; font-weight: 700; margin-bottom: 12px;">Status da Loja
+                                </div>
+                                <div
+                                    style="padding: 10px; background: #ECFDF5; border-radius: 8px; color: #059669; font-size: 10px; font-weight: 700; text-align: center; margin-bottom: 16px;">
+                                    🟢 LOJA ABERTA</div>
+                                <div class="control-panic">
+                                    <div style="font-size: 9px; font-weight: 700; color: #DC2626; margin-bottom: 8px;">
+                                        EMERGÊNCIA</div>
+                                    <div
+                                        style="padding: 8px; background: #DC2626; border-radius: 6px; color: white; font-size: 9px; font-weight: 700;">
+                                        🚨 FECHAR LOJA</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PLANOS -->
+    <section id="planos" class="pricing-section">
+        <div class="container">
+            <div class="pricing-header reveal">
+                <span class="badge" style="margin: 0 auto 16px; display: table;">💰 Investimento</span>
+                <h2>Escolha como quer atender</h2>
+                <p class="pricing-subtitle">
+                    Todos os planos incluem setup completo, importação do iFood, integração WhatsApp e Mercado Pago.
+                    Mensalidade fixa, sem taxa por pedido.
+                </p>
+            </div>
+
+            <div class="pricing-grid">
+
+                <!-- PLANO 1: Delivery -->
+                <div class="pricing-card reveal" style="transition-delay: 0.15s;">
+                    <span class="plan-icon">🛵</span>
+                    <span class="plan-name">Delivery & Retirada</span>
+                    <p class="plan-desc">Ideal para quem faz delivery e/ou aceita pedidos para retirada no balcão.</p>
+
+                    <div class="plan-features">
+                        <div class="plan-feature-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Cardápio digital com link próprio
+                        </div>
+                        <div class="plan-feature-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Painel Kanban de pedidos
+                        </div>
+                        <div class="plan-feature-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            WhatsApp automático
+                        </div>
+                        <div class="plan-feature-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Pix e crédito via Mercado Pago
+                        </div>
+                        <div class="plan-feature-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Importação do iFood
+                        </div>
+                        <div class="plan-feature-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Relatórios por canal e data
+                        </div>
+                        <div class="plan-feature-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Controle de horário e pânico
+                        </div>
+                    </div>
+
+                    <div class="plan-divider"></div>
+
+                    <span class="price-label">SETUP ÚNICO</span>
+                    <span class="setup-price">R$ 1.990</span>
+
+                    <span class="price-label">MENSALIDADE</span>
+                    <div class="monthly-price-container">
+                        <span class="currency">R$</span>
+                        <span class="amount">369</span>
+                        <span class="period">/mês</span>
+                    </div>
+                    <span class="no-tax-info">Sem taxa por pedido ✨</span>
+
+                    <a href="#contato" class="btn-plan btn-plan-outline">
+                        COMEÇAR AGORA
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- PLANO 2: Híbrido (DESTAQUE) -->
+                <div class="pricing-card featured reveal" style="transition-delay: 0.3s;">
+                    <div class="popular-badge">🔥 MAIS POPULAR</div>
+                    <span class="plan-icon">⚡</span>
+                    <span class="plan-name">Híbrido</span>
+                    <p class="plan-desc">Tudo junto: delivery, retirada e mesa. Um só painel para gerenciar todos os
+                        canais.</p>
+
+                    <div class="plan-features">
+                        <div class="plan-feature-item highlight">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Tudo do plano Delivery & Retirada
+                        </div>
+                        <div class="plan-feature-item highlight">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Tudo do plano Mesa
+                        </div>
+                        <div class="plan-feature-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            QR Code por mesa
+                        </div>
+                        <div class="plan-feature-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Pedidos filtrados no Kanban
+                        </div>
+                        <div class="plan-feature-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Painel unificado
+                        </div>
+                        <div class="plan-feature-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Relatórios separados por canal
+                        </div>
+                        <div class="plan-feature-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Ideal para operação completa
+                        </div>
+                    </div>
+
+                    <div class="plan-divider"></div>
+
+                    <span class="price-label">SETUP ÚNICO</span>
+                    <span class="setup-price">R$ 2.329</span>
+
+                    <span class="price-label">MENSALIDADE</span>
+                    <div class="monthly-price-container">
+                        <span class="currency">R$</span>
+                        <span class="amount">429</span>
+                        <span class="period">/mês</span>
+                    </div>
+                    <span class="no-tax-info">Sem taxa por pedido ✨</span>
+
+                    <a href="#contato" class="btn-plan btn-plan-primary">
+                        COMEÇAR AGORA
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- PLANO 3: Mesa -->
+                <div class="pricing-card reveal" style="transition-delay: 0.45s;">
+                    <span class="plan-icon">🍽️</span>
+                    <span class="plan-name">Atendimento na Mesa</span>
+                    <p class="plan-desc">Ideal para quem quer modernizar o atendimento presencial com QR Code.</p>
+
+                    <div class="plan-features">
+                        <div class="plan-feature-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            QR Code individual por mesa
+                        </div>
+                        <div class="plan-feature-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Cliente pede sem chamar garçom
+                        </div>
+                        <div class="plan-feature-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Painel Kanban com filtro por mesa
+                        </div>
+                        <div class="plan-feature-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            WhatsApp automático
+                        </div>
+                        <div class="plan-feature-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Pix e crédito via Mercado Pago
+                        </div>
+                        <div class="plan-feature-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Importação do iFood
+                        </div>
+                        <div class="plan-feature-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Relatórios e controles
+                        </div>
+                    </div>
+
+                    <div class="plan-divider"></div>
+
+                    <span class="price-label">SETUP ÚNICO</span>
+                    <span class="setup-price">R$ 1.990</span>
+
+                    <span class="price-label">MENSALIDADE</span>
+                    <div class="monthly-price-container">
+                        <span class="currency">R$</span>
+                        <span class="amount">369</span>
+                        <span class="period">/mês</span>
+                    </div>
+                    <span class="no-tax-info">Sem taxa por pedido ✨</span>
+
+                    <a href="#contato" class="btn-plan btn-plan-outline">
+                        COMEÇAR AGORA
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Dot Navigation for Carousel (Mobile only) -->
+            <div class="pricing-dots" id="pricing-dots">
+                <span class="dot" data-index="0"></span>
+                <span class="dot active" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+            </div>
+
+            <!-- Card de Contexto -->
+            <div class="pricing-context reveal" style="transition-delay: 0.6s;">
+                <div class="context-title">💡 Contextualizando o investimento</div>
+                <p class="context-text">
+                    Se você fatura <span class="slate-800" style="font-weight: 700;">R$ 12.000/mês</span> no iFood, paga
+                    aproximadamente <span class="red">R$ 1.934</span> em taxas e mensalidade. Na Menson, seu custo
+                    mensal é <span class="emerald">R$ 369</span> — fixo, não importa quantos pedidos faça.
+                </p>
+                <span class="context-highlight">⚡ O setup de R$ 1.990 se paga em aproximadamente 38 dias de
+                    operação.</span>
+            </div>
+
+            <!-- Link WhatsApp -->
+            <div class="pricing-wa-link">
+                Tem dúvidas sobre qual plano escolher? <a href="https://wa.me/5513997041061" target="_blank">Fale
+                    conosco no WhatsApp</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SETUP -->
+    <section id="setup" class="setup-section">
+        <div class="container">
+            <div class="setup-header reveal">
+                <span class="badge" style="margin: 0 auto 16px; display: table;">⚡ Retorno rápido</span>
+                <h2>O setup se paga antes do <span style="color: var(--orange-500);">primeiro mês</span> acabar</h2>
+                <p class="setup-subtitle">
+                    Baseado em um restaurante que fatura <span style="font-weight: 600; color: var(--slate-700);">R$
+                        12.000/mês</span> no delivery. A economia mensal com a Menson cobre o investimento inicial
+                    rapidamente.
+                </p>
+            </div>
+
+            <!-- Timeline Visual -->
+            <div class="timeline-card reveal" style="transition-delay: 0.2s;">
+                <div class="timeline-container">
+                    <div class="timeline-line"></div>
+
+                    <!-- Ponto 1: Investimento -->
+                    <div class="timeline-point reveal" style="transition-delay: 0.3s;">
+                        <div class="timeline-circle">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+                                <line x1="1" y1="10" x2="23" y2="10"></line>
+                            </svg>
+                        </div>
+                        <div class="tl-content">
+                            <div class="tl-label">DIA 0</div>
+                            <div class="tl-title">Investimento</div>
+                            <div class="tl-value">R$ 1.990</div>
+                            <div class="tl-desc">Setup único</div>
+                        </div>
+                    </div>
+
+                    <!-- Ponto 2: Economia Gerada -->
+                    <div class="timeline-point success reveal" style="transition-delay: 0.45s;">
+                        <div class="timeline-circle">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                style="color: var(--emerald-500);">
+                                <line x1="12" y1="1" x2="12" y2="23"></line>
+                                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                            </svg>
+                        </div>
+                        <div class="tl-content">
+                            <div class="tl-label" style="color: var(--emerald-500);">DIA 30</div>
+                            <div class="tl-title" style="color: var(--emerald-600);">1º Mês Completo</div>
+                            <div class="tl-value" style="color: var(--emerald-600);">+R$ 1.565</div>
+                            <div class="tl-desc" style="color: var(--emerald-400);">de economia</div>
+                        </div>
+                    </div>
+
+                    <!-- Ponto 3: Setup Pago -->
+                    <div class="timeline-point active-roi reveal" style="transition-delay: 0.6s;">
+                        <div class="timeline-circle">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+                                style="color: var(--orange-500);">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                        </div>
+                        <div class="tl-content">
+                            <div class="tl-label" style="color: var(--orange-500);">DIA 38</div>
+                            <div class="tl-title" style="color: var(--orange-600);">Setup Recuperado</div>
+                            <div class="tl-value" style="color: var(--orange-500);">R$ 0</div>
+                            <div class="tl-desc" style="color: var(--orange-400);">Investimento pago ✅</div>
+                        </div>
+                    </div>
+
+                    <!-- Ponto 4: Acumulado -->
+                    <div class="timeline-point complete reveal" style="transition-delay: 0.75s;">
+                        <div class="timeline-circle">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                style="color: var(--emerald-600);">
+                                <polyline points="23 6 13.5 15.5 8.5 10.5 18"></polyline>
+                                <polyline points="17 6 23 6 23 12"></polyline>
+                            </svg>
+                        </div>
+                        <div class="tl-content">
+                            <div class="tl-label" style="color: var(--emerald-600);">DIA 60</div>
+                            <div class="tl-title" style="color: var(--emerald-700);">Lucro Puro</div>
+                            <div class="tl-value" style="color: var(--emerald-600);">+R$ 3.130</div>
+                            <div class="tl-desc" style="color: var(--emerald-400);">acumulados</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Blocos de Números -->
+            <div class="setup-stats-carousel">
+                <div class="setup-stats-grid">
+
+                    <div class="stats-card negative reveal" style="transition-delay: 0.2s;">
+                        <span class="stats-icon">😰</span>
+                        <span class="stats-label">12 meses no iFood</span>
+                        <span class="stats-value">- R$ 23.208</span>
+                        <span class="stats-desc">em taxas + mensalidades</span>
+                    </div>
+
+                    <div class="stats-card positive reveal" style="transition-delay: 0.4s;">
+                        <span class="stats-icon">💰</span>
+                        <span class="stats-label">Economia em 12 meses</span>
+                        <span class="stats-value">+ R$ 16.790</span>
+                        <span class="stats-desc">de volta pro seu bolso</span>
+                    </div>
+
+                    <div class="stats-card reveal" style="transition-delay: 0.6s;">
+                        <span class="stats-icon">🏷️</span>
+                        <span class="stats-label">Custo Menson em 12 meses</span>
+                        <span class="stats-value">R$ 6.418</span>
+                        <span class="stats-desc">setup + 12 mensalidades</span>
+                    </div>
+
+                    <div class="stats-card highlight reveal" style="transition-delay: 0.8s;">
+                        <span class="stats-icon">✨</span>
+                        <span class="stats-label">Taxa por pedido</span>
+                        <span class="stats-value">R$ 0</span>
+                        <span class="stats-desc" style="font-weight: 600; color: var(--orange-400);">sempre. para
+                            sempre.</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats Dots (Mobile) -->
+            <div class="stats-dots" id="stats-dots">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+
+            <!-- CTA Final -->
+            <div class="setup-cta-box reveal" style="transition-delay: 0.9s;">
+                <a href="#contato" class="btn btn-primary btn-setup-cta">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+                        <polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polyline>
+                    </svg>
+                    QUERO PARAR DE PERDER DINHEIRO
+                </a>
+                <p class="setup-cta-desc">Setup único + mensalidade fixa. Sem surpresas.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- OBJECOES -->
+    <section id="objecoes" class="objections-section">
+        <div class="container">
+            <div class="objections-header reveal">
+                <span class="badge" style="margin: 0 auto 16px; display: table;">💬 Tire suas dúvidas</span>
+                <h2>Toda dúvida que você tem, a gente responde.</h2>
+                <p class="objections-subtitle">
+                    Sabemos que sair de uma plataforma pode dar medo. Por isso respondemos as dúvidas mais comuns de
+                    quem
+                    está pensando em ter seu próprio delivery.
+                </p>
+            </div>
+
+            <div class="objections-carousel">
+                <div class="objections-grid">
+
+                    <!-- Card 1 -->
+                    <div class="objection-card reveal-stagger-objection reveal">
+                        <div class="objection-q">
+                            <div class="q-circle">?</div>
+                            <h4>"Meus clientes só conhecem o iFood, como vou vender?"</h4>
+                        </div>
+                        <div class="objection-divider"></div>
+                        <p class="objection-a">
+                            Quem já compra de você vai <b>preferir pedir direto</b> — especialmente se você oferecer
+                            preço
+                            melhor sem a taxa do iFood. Divulgue no <b>Instagram</b>, no <b>panfleto da entrega</b>, no
+                            <b>balcão</b>. Seu cardápio tem um link próprio como <span
+                                class="code-url">seurestaurante.mfrente.com</span> — fácil de lembrar e compartilhar.
+                        </p>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="objection-card reveal-stagger-objection reveal">
+                        <div class="objection-q">
+                            <div class="q-circle">?</div>
+                            <h4>"É difícil de configurar?"</h4>
+                        </div>
+                        <div class="objection-divider"></div>
+                        <p class="objection-a">
+                            Não. <b>Importamos tudo do iFood em 1 clique</b>: produtos, fotos, categorias, opcionais,
+                            preços. WhatsApp e Mercado Pago conectam via <b>QR Code em segundos</b>. E se preferir,
+                            <span class="success-text">a gente configura tudo pra você</span> sem custo adicional.
+                        </p>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="objection-card reveal-stagger-objection reveal">
+                        <div class="objection-q">
+                            <div class="q-circle">?</div>
+                            <h4>"Meu cliente precisa baixar algum aplicativo?"</h4>
+                        </div>
+                        <div class="objection-divider"></div>
+                        <p class="objection-a">
+                            <span class="success-text">Não. Nem você, nem seu cliente.</span> Tudo funciona direto pelo
+                            navegador do celular. O sistema é um <b>PWA</b> (Progressive Web App) — abre como um site,
+                            funciona como um app. Rápido, leve e sem ocupar espaço no celular de ninguém.
+                        </p>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="objection-card reveal-stagger-objection reveal">
+                        <div class="objection-q">
+                            <div class="q-circle">?</div>
+                            <h4>"Meu cliente precisa criar conta e fazer cadastro?"</h4>
+                        </div>
+                        <div class="objection-divider"></div>
+                        <p class="objection-a">
+                            O login é via <b>WhatsApp</b>. O cliente digita o número do celular, recebe um código por
+                            mensagem e pronto — está dentro. <span class="success-text">Sem formulário, sem email, sem
+                                senha.</span> Atrito zero.
+                        </p>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="objection-card reveal-stagger-objection reveal">
+                        <div class="objection-q">
+                            <div class="q-circle">?</div>
+                            <h4>"O setup de R$ 1.990 não é caro?"</h4>
+                        </div>
+                        <div class="objection-divider"></div>
+                        <p class="objection-a">
+                            Coloque na ponta do lápis: se você fatura <b>R$ 10.000/mês</b> no iFood, paga cerca de <span
+                                class="error-text">R$ 2.700 em taxa</span> — todo mês. Na Menson, paga <span
+                                class="success-text">R$ 369 fixo</span>. A <span class="warning-text">economia do
+                                primeiro
+                                mês já cobre o setup</span>. A partir do segundo mês, é dinheiro que fica no seu bolso.
+                        </p>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="objection-card reveal-stagger-objection reveal">
+                        <div class="objection-q">
+                            <div class="q-circle">?</div>
+                            <h4>"Posso continuar no iFood ao mesmo tempo?"</h4>
+                        </div>
+                        <div class="objection-divider"></div>
+                        <p class="objection-a">
+                            <span class="success-text">Sim!</span> Inclusive recomendamos no início. Use o iFood para
+                            <b>captar clientes novos</b> e a Menson para atender seus <span
+                                class="warning-text">clientes
+                                fiéis</span> — que já conhecem seu restaurante e não precisam de marketplace para te
+                            encontrar.
+                        </p>
+                    </div>
+
+                    <!-- Card 7 -->
+                    <div class="objection-card reveal-stagger-objection reveal">
+                        <div class="objection-q">
+                            <div class="q-circle">?</div>
+                            <h4>"E se eu precisar fechar a loja de emergência?"</h4>
+                        </div>
+                        <div class="objection-divider"></div>
+                        <p class="objection-a">
+                            Tem um <span class="error-text">botão de pânico</span> no painel. Um clique e sua loja fecha
+                            na
+                            hora — nenhum cliente consegue fazer pedido até você reabrir. Além disso, os <b>horários de
+                                atendimento</b> automatizam a abertura e fechamento da loja.
+                        </p>
+                    </div>
+
+                    <!-- Card 8 -->
+                    <div class="objection-card reveal-stagger-objection reveal">
+                        <div class="objection-q">
+                            <div class="q-circle">?</div>
+                            <h4>"E se eu quiser cancelar o plano?"</h4>
+                        </div>
+                        <div class="objection-divider"></div>
+                        <p class="objection-a">
+                            <span class="success-text">Cancela quando quiser.</span> Sem multa, sem fidelidade, sem
+                            burocracia. Acreditamos que você vai ficar porque o produto é bom — não porque tem um
+                            contrato
+                            te prendendo.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Objections Dots (Mobile) -->
+            <div class="objections-dots" id="objections-dots">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="faq-header reveal">
+                <span class="badge" style="margin: 0 auto 16px; display: table;">❓ FAQ</span>
+                <h2>Perguntas Frequentes</h2>
+                <p class="faq-subtitle">
+                    Tudo que você precisa saber antes de começar. Se não encontrar sua dúvida, é só chamar no WhatsApp.
+                </p>
+            </div>
+
+            <div class="faq-container reveal" style="transition-delay: 0.2s;">
+
+                <!-- Item 1 -->
+                <div class="faq-item">
+                    <div class="faq-item-header">
+                        <div class="question-wrapper">
+                            <div class="faq-dot"></div>
+                            <h4>Preciso ter CNPJ para usar a Menson?</h4>
+                        </div>
+                        <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </div>
+                    <div class="faq-item-content">
+                        <p class="faq-answer">
+                            Não é obrigatório ter CNPJ para utilizar a plataforma. Porém, para integrar o Mercado Pago e
+                            receber pagamentos online via Pix, o Mercado Pago pode exigir documentação. Você pode
+                            começar recebendo pagamentos na entrega ou retirada enquanto organiza isso.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="faq-item">
+                    <div class="faq-item-header">
+                        <div class="question-wrapper">
+                            <div class="faq-dot"></div>
+                            <h4>Como funciona o link do meu cardápio?</h4>
+                        </div>
+                        <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </div>
+                    <div class="faq-item-content">
+                        <p class="faq-answer">
+                            Seu cardápio fica disponível em um endereço como <mark>seurestaurante.mfrente.com</mark>.
+                            Você escolhe o nome. É esse link que seus clientes vão acessar para fazer pedidos — pelo
+                            celular, sem baixar nada. Você pode colocar esse link no Instagram, no Google, em panfletos,
+                            onde quiser.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="faq-item">
+                    <div class="faq-item-header">
+                        <div class="question-wrapper">
+                            <div class="faq-dot"></div>
+                            <h4>Quais formas de pagamento meu cliente pode usar?</h4>
+                        </div>
+                        <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </div>
+                    <div class="faq-item-content">
+                        <p class="faq-answer">
+                            Você configura no painel. As opções são: <b>Pix online</b> (via Mercado Pago, cai direto na
+                            sua conta), <b>pagamento na retirada</b> e <b>pagamento na entrega</b>. Você ativa e
+                            desativa cada uma conforme sua operação.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="faq-item">
+                    <div class="faq-item-header">
+                        <div class="question-wrapper">
+                            <div class="faq-dot"></div>
+                            <h4>Vocês cuidam da entrega?</h4>
+                        </div>
+                        <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </div>
+                    <div class="faq-item-content">
+                        <p class="faq-answer">
+                            Não. A logística de entrega é do restaurante — seus entregadores, seu controle. A Menson
+                            cuida do sistema: receber o pedido, notificar o cliente, gerenciar o status. Quando o pedido
+                            sai para entrega, você marca no painel e o cliente recebe a notificação no WhatsApp
+                            automaticamente.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="faq-item">
+                    <div class="faq-item-header">
+                        <div class="question-wrapper">
+                            <div class="faq-dot"></div>
+                            <h4>Funciona para qualquer tipo de restaurante?</h4>
+                        </div>
+                        <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </div>
+                    <div class="faq-item-content">
+                        <p class="faq-answer">
+                            Sim. Pizzaria, hamburgueria, doceria, açaí, comida japonesa, marmitex, padaria — qualquer
+                            negócio que venda comida por delivery, retirada ou mesa. O cardápio é 100% personalizável
+                            com suas categorias, produtos, opcionais e preços.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Item 6 -->
+                <div class="faq-item">
+                    <div class="faq-item-header">
+                        <div class="question-wrapper">
+                            <div class="faq-dot"></div>
+                            <h4>O que acontece se cair a internet?</h4>
+                        </div>
+                        <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </div>
+                    <div class="faq-item-content">
+                        <p class="faq-answer">
+                            Se a internet do restaurante cair, a loja continua disponível para os clientes (está na
+                            nuvem). Os pedidos ficam registrados e assim que sua conexão voltar, eles aparecem no
+                            painel. Recomendamos ter uma conexão reserva (4G do celular, por exemplo) para não perder
+                            pedidos.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Item 7 -->
+                <div class="faq-item">
+                    <div class="faq-item-header">
+                        <div class="question-wrapper">
+                            <div class="faq-dot"></div>
+                            <h4>Posso personalizar o cardápio com minha marca?</h4>
+                        </div>
+                        <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </div>
+                    <div class="faq-item-content">
+                        <p class="faq-answer">
+                            Sim. Você define o nome da loja, adiciona o logo, e o cardápio reflete a identidade do seu
+                            restaurante. Os produtos são cadastrados com foto, descrição, preço e opcionais — tudo
+                            personalizável.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Item 8 -->
+                <div class="faq-item">
+                    <div class="faq-item-header">
+                        <div class="question-wrapper">
+                            <div class="faq-dot"></div>
+                            <h4>Tem limite de produtos ou pedidos por mês?</h4>
+                        </div>
+                        <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </div>
+                    <div class="faq-item-content">
+                        <p class="faq-answer">
+                            <b style="color: var(--emerald-600);">Não tem limite.</b> Cadastre quantos produtos quiser e
+                            receba quantos pedidos conseguir atender. A mensalidade é fixa independente do volume — essa
+                            é a grande vantagem sobre o iFood, que cobra por pedido.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Item 9 -->
+                <div class="faq-item">
+                    <div class="faq-item-header">
+                        <div class="question-wrapper">
+                            <div class="faq-dot"></div>
+                            <h4>Consigo usar a Menson e o iFood ao mesmo tempo?</h4>
+                        </div>
+                        <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </div>
+                    <div class="faq-item-content">
+                        <p class="faq-answer">
+                            Com certeza. Muitos restaurantes usam o iFood para captar clientes novos e o delivery
+                            próprio para fidelizar. Com o tempo, conforme seus clientes se acostumam a pedir pelo seu
+                            link, você vai naturalmente reduzindo a dependência do iFood.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Item 10 -->
+                <div class="faq-item">
+                    <div class="faq-item-header">
+                        <div class="question-wrapper">
+                            <div class="faq-dot"></div>
+                            <h4>Como funciona o suporte da Menson?</h4>
+                        </div>
+                        <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </div>
+                    <div class="faq-item-content">
+                        <p class="faq-answer">
+                            Nosso suporte é via <b>WhatsApp</b>. Qualquer dúvida, problema técnico ou ajuda na
+                            configuração, é só mandar mensagem. Sem chatbot, sem fila, sem protocolo. Você fala direto
+                            com a gente.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Help Pill -->
+            <div class="faq-help-container reveal" style="transition-delay: 0.4s;">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" style="color: var(--orange-500);">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                </svg>
+                <span class="faq-help-title">Não encontrou sua dúvida?</span>
+                <a href="https://wa.me/5513997041061" target="_blank" class="faq-help-link">Fale com a gente no WhatsApp
+                    →</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section id="cta-final" class="cta-final-section">
+        <div class="cta-final-dots"></div>
+        <div class="container">
+            <div class="cta-final-content">
+
+                <div class="cta-final-icon reveal">💸</div>
+
+                <h2 class="cta-final-headline reveal" style="transition-delay: 0.15s;">
+                    Não seja mais um escravo das plataformas <span class="underline-roi">Seja independente.</span>
+                </h2>
+
+                <p class="cta-final-subtitle reveal" style="transition-delay: 0.25s;">
+                    Faturando <strong>R$ 15.000/mês</strong>? Veja quanto as plataformas tiram de você:
+                </p>
+
+                <!-- Mini Stats -->
+                <div class="cta-final-stats">
+
+                    <div class="mini-stat-card negative-red reveal" style="transition-delay: 0.35s;">
+                        <span class="stat-card-label">POR MÊS</span>
+                        <span class="stat-card-value">- R$ 4.050</span>
+                        <span class="stat-card-emoji">😰</span>
+                    </div>
+
+                    <div class="mini-stat-card negative-red-strong reveal" style="transition-delay: 0.45s;">
+                        <span class="stat-card-label">POR ANO</span>
+                        <span class="stat-card-value">- R$ 48.600</span>
+                        <span class="stat-card-emoji">😱</span>
+                    </div>
+
+                    <div class="mini-stat-card positive-emerald reveal" style="transition-delay: 0.55s;">
+                        <span class="stat-card-label">SEU DELIVERY</span>
+                        <span class="stat-card-value">R$ 369</span>
+                        <span class="stat-card-period">/mês fixo</span>
+                        <span class="stat-card-emoji">😎</span>
+                    </div>
+
+                </div>
+
+                <!-- Actions -->
+                <div class="cta-final-actions">
+
+                    <a href="#contato" class="btn-cta-final-primary reveal" style="transition-delay: 0.65s;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polyline>
+                        </svg>
+                        QUERO PARAR DE PERDER DINHEIRO
+                    </a>
+
+
+
+                    <a href="https://wa.me/5513997041061" target="_blank" class="cta-final-wa-link reveal"
+                        style="transition-delay: 0.85s;">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: #25D366;">
+                            <path
+                                d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 1 1-7.6-11.7c4.7 0 8.5 3.8 8.5 8.5v.5l1.6 4.9L17 19.3l-2.6.8a8.45 8.45 0 0 1-2.9.5 8.5 8.5 0 0 1-8.5-8.5c0-4.7 3.8-8.5 8.5-8.5a8.5 8.5 0 0 1 8.5 8.5z">
+                            </path>
+                        </svg>
+                        ou fale com a gente no <strong>WhatsApp</strong>
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+
+                <!-- Coluna 1: Marca -->
+                <div class="footer-col footer-brand reveal">
+                    <a href="#" class="logo">
+                        <div class="logo-icon">M</div>
+                        <span class="logo-text">MENSON <span>gourmet</span></span>
+                    </a>
+                    <p class="footer-desc">
+                        Sistema completo de delivery próprio para restaurantes. Sem taxa por pedido, sem intermediários.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-item" title="Instagram">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="https://wa.me/5513997041061" class="social-item" title="WhatsApp">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 1 1-7.6-11.7c4.7 0 8.5 3.8 8.5 8.5v.5l1.6 4.9L17 19.3l-2.6.8a8.45 8.45 0 0 1-2.9.5 8.5 8.5 0 0 1-8.5-8.5c0-4.7 3.8-8.5 8.5-8.5a8.5 8.5 0 0 1 8.5 8.5z">
+                                </path>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-item" title="LinkedIn">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                </path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Coluna 2: Produto -->
+                <div class="footer-col reveal" style="transition-delay: 0.1s;">
+                    <h4 class="footer-col-title">Produto</h4>
+                    <ul class="footer-links">
+                        <li><a href="#recursos">Recursos</a></li>
+                        <li><a href="#planos">Planos e Preços</a></li>
+                        <li><a href="#economia">Calculadora de Economia</a></li>
+                        <li><a href="#demo">Visitar Loja Demo</a></li>
+                    </ul>
+                </div>
+
+                <!-- Coluna 3: Suporte -->
+                <div class="footer-col reveal" style="transition-delay: 0.2s;">
+                    <h4 class="footer-col-title">Suporte</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://wa.me/5513997041061" target="_blank">WhatsApp</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#como-funciona">Como Funciona</a></li>
+                        <li><a href="mailto:contato@mensongourmet.com">E-mail</a></li>
+                    </ul>
+                </div>
+
+                <!-- Coluna 4: Legal -->
+                <div class="footer-col reveal" style="transition-delay: 0.3s;">
+                    <h4 class="footer-col-title">Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Termos de Uso</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                    </ul>
+                    <span class="legal-text">CNPJ: 45.456.890/0001-23</span>
+                </div>
+
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="footer-bottom reveal" style="transition-delay: 0.4s;">
+                <p class="copyright">© 2025 Menson Gourmet. Todos os direitos reservados.</p>
+                <p class="made-with">Feito com <span>🧡</span> para restaurantes brasileiros</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão Flutuante WhatsApp -->
+    <div class="wa-float-container" id="wa-float">
+        <a href="https://wa.me/5513997041061?text=Olá! Quero saber mais sobre a Menson Gourmet" target="_blank"
+            class="wa-float-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="white">
+                <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+            </svg>
+            <div class="wa-badge"></div>
+        </a>
+        <div class="wa-tooltip">Fale conosco 💬</div>
+    </div>
+
+    <!-- MODAL DEMO (OVERLAY) -->
+    <div id="demo-modal" class="demo-modal">
+        <div class="demo-modal-content">
+            <div class="demo-modal-header">
+                <div class="demo-modal-title">
+                    <span class="demo-modal-badge">Live Demo</span>
+                    <h3 id="modal-title">Visualizando demonstração</h3>
+                </div>
+                <button id="close-modal" class="close-modal-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <div class="demo-modal-body">
+                <div id="demo-iframe-container" class="demo-iframe-container">
+                    <div id="iframe-placeholder" class="iframe-loading">
+                        <div class="spinner"></div>
+                        <p>Carregando demonstração segura...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="demo-modal-footer">
+                <p>💡 Esta é uma visualização em tempo real. Você pode interagir com o software!</p>
+                <div class="modal-footer-actions">
+                    <a href="#contato" class="btn btn-primary btn-sm" id="modal-cta">Quero um assim</a>
+                    <button class="btn btn-outline btn-sm" id="modal-close-footer">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="main.js"></script>
+</body>
+
+</html>
