@@ -251,7 +251,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const demoUrls = {
         menu: 'https://hamburgueria.menson.com.br',
-        admin: 'https://hamburgueria.menson.com.br?demo=1'
+        admin: 'https://hamburgueria.menson.com.br?demo=1#demo'
     };
 
     const openModal = (type) => {
