@@ -250,28 +250,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const modalTitle = document.getElementById('modal-title');
 
     const demoUrls = {
-        menu: 'https://demo-cardapio.menson.app', // Placeholder URL
-        admin: 'https://demo-admin.menson.app'    // Placeholder URL
+        menu: 'https://hamburgueria.menson.com.br',
+        admin: 'https://hamburgueria.menson.com.br?demo=1'
     };
 
     const openModal = (type) => {
         const url = demoUrls[type];
-        const title = type === 'menu' ? 'Visualizando Cardápio Menson' : 'Visualizando Painel do Lojista';
-        
-        if (modalTitle) modalTitle.textContent = title;
-        if (demoModal) {
-            demoModal.classList.add('active');
-            body.classList.add('modal-open');
-        }
-
-        // Inject iframe after a small delay to ensure smooth transition
-        setTimeout(() => {
-            if (demoIframeContainer) {
-                demoIframeContainer.innerHTML = `
-                    <iframe src="${url}" allow="payment" title="${title}" style="width:100%; height:100%; border:none;"></iframe>
-                `;
-            }
-        }, 300);
+        window.open(url, '_blank');
     };
 
     const closeModal = () => {

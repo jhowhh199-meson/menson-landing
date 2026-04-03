@@ -1,0 +1,12 @@
+{
+  "name": "menson-landing",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Menson SaaS Landing Page",
+  "scripts": {
+    "build": "mkdir -p dist && cp index.html main.js style.css dist/"
+  },
+  "keywords": [],
+  "author": "Menson Gourmet",
+  "license": "ISC"
+}
